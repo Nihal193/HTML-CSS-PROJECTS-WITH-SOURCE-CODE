@@ -1,0 +1,94 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>nihal</title> 
+  <script src="https://kit.fontawesome.com/1940e046a6.js" crossorigin="anonymous"></script> 
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      
+      
+    
+    }
+    body{
+      background: #ffffff;
+    }
+    div{
+      justify-content:center;
+      display:flex;
+      height:100vh;
+      }
+      ul{
+        display:flex;
+        margin:auto;
+        }
+      ul li{
+        
+        width:100px;
+        height:100px;
+        list-style:none;
+        
+        justify-content:center;
+        border:3px solid #2e86de;
+        
+        margin:20px;
+        display:flex;
+        align-items:center;
+        border-radius:50%;
+        position: relative;
+        
+        }
+        
+       ul li i{
+         color: #2e86de;
+         }
+         ul li:after{
+           content:"";
+           position: absolute;
+           height:inherit;
+           width:inherit;
+           background-color:#2e86de;
+           border-radius:50%;
+           transition:all 0.5s linear;
+           z-index: -2;
+           opacity: 0;
+           }
+           ul li:hover:after{
+             opacity: 1;
+             transform: scale(0.8);
+             }
+             ul li:hover i{
+               color: #ffffff;
+             }
+        h1{
+           justify-content: center;
+           align-items: center;
+           color: black;
+           margin:auto;
+           position: absolute;
+           top:700px;
+           letter-spacing: 3px;
+           transition: 0.3s linear;
+         }
+         h1:hover{
+           
+           text-decoration:underline;
+           color:#2e86de;
+         }
+</style> 
+ </head> 
+ <body> 
+  <div> 
+   <ul> 
+    <li><i class="fa-solid fa-2x fa-heart"></i> </li> 
+    <li><i class="fa-solid fa-2x fa-globe"></i> </li> 
+    <li><i class="fa-solid fa-2x fa-gift"></i> </li> 
+    <li><i class="fa-solid fa-2x fa-star"></i> </li> 
+   </ul> 
+   <h1>
+    Made by NIHAL
+   </h1>
+  </div> 
+ </body>
+</html>
