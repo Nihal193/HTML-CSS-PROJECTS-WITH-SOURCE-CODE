@@ -1,2 +1,2 @@
 # search-bar-using-html
-Search bar using html with source code
+HTML AND CSS PROJECT with source code
