@@ -1,0 +1,89 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <title>nav</title>
+  <style>
+  *{
+       font-family: 'Roboto';
+   	margin:0;
+   	padding: 0;
+  }
+  body{
+    background-color: #000000;
+  }
+  WK{
+    position: relative;
+    
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    
+  }
+  .logo{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600px;
+  }
+  nav{
+    display: flex;
+    position: relative;
+  }
+  nav a{
+    text-decoration: none;
+    padding: 10px 0px 0px 100px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: #9ca7aa;
+    margin: 6px;
+    position: relative;
+    transition:all 0.3s ;
+    
+  }
+    a:after{
+      
+      content: " ";
+      
+      position: absolute;
+      bottom: -10px;
+      justify-content: center;
+      display: flex;
+      
+      width: 0;
+      background-color: #ff3c78;
+  
+      height: 2px;
+      transition:all 0.3s linear;
+      
+      
+    }
+    nav a:hover{
+      color: #ffffff;
+    }
+    a:hover:after{
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="WK">
+  
+  <div class="logo">
+    <strong>N CREATOR</strong>
+  </div>
+  <div>
+    <nav>
+      <a href="#">HOME</a>
+            <a href="#">PROFILE</a>
+      <a href="#">WORK</a>
+    
+      <a href="#">servecies</a>
+    </nav>
+  </div>
+  </div>
+  
+</body>
+</html>
